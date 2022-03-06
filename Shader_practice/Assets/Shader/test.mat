@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6706860542255524611
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: barrier_mat
-  m_Shader: {fileID: -6465566751694194690, guid: c82fc7c482f221d4e974ef6c96166cc8, type: 3}
+  m_Name: test
+  m_Shader: {fileID: -6465566751694194690, guid: 64820eb7ebc92e046ab80999eec72fba, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,12 +32,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_00bb930183464ee4bf179d8db2286805:
-        m_Texture: {fileID: 2800000, guid: 3e11968c372730442aae3b4f7c909931, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_265dba82049b46a39c05a9efdce8a454:
-        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
+    - Texture2D_1432f4dfac934f15a098a302e4a16501:
+        m_Texture: {fileID: 2800000, guid: a7766e24f4c8b6b44a808389306f1678, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -84,26 +93,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_239571b8cd48436687e8357c7a958013: 1
-    - EnableFillTex: 1
-    - EnableIntersection: 1
-    - EnableRimGlow: 1
-    - EnableScanLine: 1
-    - Fill: 0.01
-    - FillTining: 10
-    - IntersectionMultipller: 1
-    - IntersectionOffset: 0.9
-    - RimGlowNoiseSpeed: 1
-    - RimMin: 4.5
-    - RimPower: 2
-    - RimSpeed: 3
-    - ScanSize: 0.8
-    - ScanSpeed: 1
-    - Vector1_3ecc8d1dc2404ab2994782e461fa47e6: 0
-    - Vector1_5cb521399e5d4245a44a3068b6b72258: 0
-    - Vector1_688ee59aa19f44f0aa84382f1e07ad32: 0
-    - Vector1_cb6518872021429f89d60149478f1f07: 4
-    - Vector1_e0ce9af4c20b4c83a5d1cd69b61b68d5: 0
+    - FresnelPower: 2
+    - Sphere_Hardness: 0.5
+    - Sphere_Mask: 1
+    - Sphere_Radius: 0.5
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -131,25 +124,15 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3b628dffeb7346fbbeaa01442a3e0014: {r: 3.54796, g: 2.775876, b: 0.88699, a: 0}
-    - Color_c7f8a6b95fa5470ca457be87249c59f0: {r: 0, g: 0, b: 0, a: 0}
-    - ImpactPoint: {r: 0, g: 0, b: 0, a: 0}
-    - ImpactRippleDirection: {r: 0, g: 0, b: 1, a: 0}
+    - BackColor: {r: 1, g: 0, b: 0, a: 1}
+    - Color_00e0ca47c8ba449e87a74195c599b992: {r: 0.24145369, g: 0.4426651, b: 3.843138, a: 1}
+    - Color_ab324de2f10f4eab969a5cfcd61d6189: {r: 0.46429372, g: 1.2290127, b: 2.6082382, a: 1}
+    - FresnelColor: {r: 0.61155546, g: 0.09233712, b: 0.7830189, a: 1}
+    - FrontColor: {r: 0, g: 0.3525641, b: 1, a: 1}
+    - Sphere_Center: {r: 0, g: 0, b: 0, a: 0}
+    - VertexOffset: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2105819590870863199
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 4
