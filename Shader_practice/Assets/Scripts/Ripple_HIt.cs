@@ -12,7 +12,7 @@ public class Ripple_HIt : MonoBehaviour
         if(col.gameObject.tag == "Bullet"){
             var ripples = Instantiate(shieldRipple,transform) as GameObject;
             shieldRippleVFX = ripples.GetComponent<VisualEffect>();
-            shieldRippleVFX.SetVector3("Sphere_Center",col.contacts[0].point);
+            shieldRippleVFX.SetVector3("SphereMask_Center",col.contacts[0].point);
             Destroy(ripples, 2);
         }
     }
