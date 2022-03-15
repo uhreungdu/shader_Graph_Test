@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tale_Effect
+  m_Shader: {fileID: -6465566751694194690, guid: f19014124e1a0ee49a0acc41649b4125, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_fbf3f825cc3d459c98c8bdcb4bec0b02:
+        m_Texture: {fileID: 2800000, guid: 1ede46d23bdba094fba6a9db0381cd2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Dissolve_Scale: 35
+    - Vector1_233c2c29044344399bb3fc660f95fa07: 20
+    m_Colors:
+    - Color_2e48f2b6a7e14b908f98cbf58b14154b: {r: 0.14117648, g: 0.7490196, b: 0.14901961, a: 1}
+    - Color_8645f0d2d3bd4593af78c172598467a7: {r: 0.66551226, g: 11.224974, b: 1.7303319, a: 1}
+    - Vector2_3cb3b33a431849e3801b56a9c3a447c2: {r: -0.5, g: 0, b: 0, a: 0}
+    - Vector2_f6a76ba4e05348109babd5b14606f838: {r: -0.1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

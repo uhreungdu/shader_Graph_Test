@@ -9,10 +9,16 @@ public class Potion_Boom_Effect : MonoBehaviour
     public float countdowm;
     public bool check_boom;
     public GameObject Boom_Effect;
+    public GameObject Getobj;
+    public GameObject Tail_obj;
     void Start()
     {
         countdowm = delay;
         check_boom = false;
+        Getobj = Resources.Load<GameObject>("Throw_Tail");
+        Tail_obj = Instantiate(Getobj);
+        Tail_obj.transform.SetParent(gameObject.transform);
+        Tail_obj.transform.Translate(gameObject.transform.position);
     }
 
     // Update is called once per frame
@@ -29,7 +35,8 @@ public class Potion_Boom_Effect : MonoBehaviour
     public void Boom()
     {
         //터지는 이펙트 발동
-        //Instantiate(Boom_Effect, transform.position, transform.rotation);
+        Boom_Effect = Resources.Load<GameObject>("BoomEffect");
+        Instantiate(Boom_Effect, transform.position, Quaternion.identity);
         //현재 보이는 방향으로 발사
         
         
