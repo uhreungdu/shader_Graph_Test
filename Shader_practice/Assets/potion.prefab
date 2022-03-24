@@ -131,6 +131,8 @@ MonoBehaviour:
   countdowm: 0
   check_boom: 0
   Boom_Effect: {fileID: 0}
+  Getobj: {fileID: 0}
+  Tail_obj: {fileID: 0}
 --- !u!1001 &2713345154646328177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189,6 +191,22 @@ PrefabInstance:
     - target: {fileID: 3970452730223005549, guid: 857aaf268e0c84b4296be5441a936d8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301799610153403709, guid: 857aaf268e0c84b4296be5441a936d8c, type: 3}
+      propertyPath: m_PropertySheet.m_Int.m_Array.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301799610153403709, guid: 857aaf268e0c84b4296be5441a936d8c, type: 3}
+      propertyPath: m_PropertySheet.m_Int.m_Array.Array.data[0].m_Name
+      value: SetSize
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301799610153403709, guid: 857aaf268e0c84b4296be5441a936d8c, type: 3}
+      propertyPath: m_PropertySheet.m_Int.m_Array.Array.data[0].m_Value
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301799610153403709, guid: 857aaf268e0c84b4296be5441a936d8c, type: 3}
+      propertyPath: m_PropertySheet.m_Int.m_Array.Array.data[0].m_Overridden
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 857aaf268e0c84b4296be5441a936d8c, type: 3}
