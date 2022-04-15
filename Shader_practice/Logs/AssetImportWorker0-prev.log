@@ -15,11 +15,11 @@ E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55121
+55693
 Successfully changed project path to: E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,38 +36,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002610 seconds.
+Registered in 0.002741 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.188 seconds
+- Completed reload, in  2.221 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006011 seconds.
+Registered in 0.006335 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.320 seconds
+- Completed reload, in  1.274 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.8 MB.
-System memory in use after: 166.0 MB.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.4 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3823.
-Total: 2.606800 ms (FindLiveObjects: 0.330000 ms CreateObjectMapping: 0.153700 ms MarkObjects: 1.988400 ms  DeleteObjects: 0.133500 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3824.
+Total: 2.590200 ms (FindLiveObjects: 0.374400 ms CreateObjectMapping: 0.206100 ms MarkObjects: 1.886100 ms  DeleteObjects: 0.122800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,217 +81,441 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shader/Destory_builing_Effect
-  artifactKey: Guid(67732118fc979494996405c3408127d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect using Guid(67732118fc979494996405c3408127d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a2e678dc2bf4bfdb4c6764e626a3a8') in 0.008954 seconds 
-  Import took 0.016152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 223.192186 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Bomb_circle.png
-  artifactKey: Guid(e70852453f55dc54bb9f9225667e9ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Bomb_circle.png using Guid(e70852453f55dc54bb9f9225667e9ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6627b1d9ea150b1b1ed6a23f8c3b4667') in 0.077733 seconds 
-  Import took 0.083192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1265.782494 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Fog_temp.png
-  artifactKey: Guid(cfc6575fdb6a77e4bbd3237fddf21241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Fog_temp.png using Guid(cfc6575fdb6a77e4bbd3237fddf21241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f8f8749ae4a7d83d886d12c374597f') in 0.017722 seconds 
-  Import took 0.024371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.345386 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_MAt.mat
-  artifactKey: Guid(9beb7ed604f508d488038ced436b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_MAt.mat using Guid(9beb7ed604f508d488038ced436b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe182a664c3547462d8d3493287d5cd') in 0.187476 seconds 
-  Import took 0.193763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.932795 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24143895b09efc42bba02f1ddae4ab03') in 0.006619 seconds 
-  Import took 0.011391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046056 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24143895b09efc42bba02f1ddae4ab03') in 0.003656 seconds 
-  Import took 0.010252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.803533 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415c4bd23bb77aa15b84273ae3e69cc3') in 0.002980 seconds 
-  Import took 0.008456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.328712 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Mat.mat
-  artifactKey: Guid(9beb7ed604f508d488038ced436b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Mat.mat using Guid(9beb7ed604f508d488038ced436b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7985e56402a608f4583ecdf300f9868b') in 0.010061 seconds 
-  Import took 0.015202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.351002 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a4ed025aa9d2bb10e85fa02ba88ec') in 0.003276 seconds 
-  Import took 0.008443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 243.040323 seconds.
-  path: Assets/Shader/Boom_Vfx/Spark_Wave.shadergraph
-  artifactKey: Guid(e6bbce0bd2a160040a4a2e22704560e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Boom_Vfx/Spark_Wave.shadergraph using Guid(e6bbce0bd2a160040a4a2e22704560e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaf786d4e874f4b6dc1249405e1188c') in 0.031831 seconds 
-  Import took 0.037505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025712 seconds.
-  path: Assets/Shader/Boom_Vfx/Spark_Wave.shadergraph
-  artifactKey: Guid(e6bbce0bd2a160040a4a2e22704560e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Boom_Vfx/Spark_Wave.shadergraph using Guid(e6bbce0bd2a160040a4a2e22704560e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaf786d4e874f4b6dc1249405e1188c') in 0.002959 seconds 
-  Import took 0.009147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.336097 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b3d33ddab57204e68dcc290437cea6') in 0.003262 seconds 
-  Import took 0.008251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.835480 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f7f10dd2e2e7838421c44a8ef03475') in 0.002828 seconds 
-  Import took 0.008269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 187.819565 seconds.
   path: Assets/Shader/Wave_Shader/Wave_Mat.mat
   artifactKey: Guid(e60d81c42a9011244bea64d801142e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Wave_Shader/Wave_Mat.mat using Guid(e60d81c42a9011244bea64d801142e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c3ecac70c5cf6d8e937abe8d4cfe0') in 0.108883 seconds 
-  Import took 0.115538 seconds .
+Start importing Assets/Shader/Wave_Shader/Wave_Mat.mat using Guid(e60d81c42a9011244bea64d801142e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a660193922b789e04dfb5da487c020') in 0.250003 seconds 
+  Import took 0.255764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003720 seconds.
-  path: Assets/Shader/Wave_Shader/Wave_Mat.mat
-  artifactKey: Guid(e60d81c42a9011244bea64d801142e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Wave_Shader/Wave_Mat.mat using Guid(e60d81c42a9011244bea64d801142e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c3ecac70c5cf6d8e937abe8d4cfe0') in 0.008268 seconds 
-  Import took 0.014028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.743681 seconds.
-  path: Assets/Shader/Wave_Shader/Wave.shadergraph
-  artifactKey: Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Wave_Shader/Wave.shadergraph using Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dac5e54a6030061bd1d349828f2af57') in 0.045696 seconds 
-  Import took 0.056192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017887 seconds.
-  path: Assets/Shader/Wave_Shader/Wave.shadergraph
-  artifactKey: Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Wave_Shader/Wave.shadergraph using Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dac5e54a6030061bd1d349828f2af57') in 0.003825 seconds 
-  Import took 0.012646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.219240 seconds.
-  path: Assets/Shader/Wave_Shader/Wave 1.shadergraph
-  artifactKey: Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Wave_Shader/Wave 1.shadergraph using Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d93b70fc00878c81abd1f401d55485') in 0.003510 seconds 
-  Import took 0.008901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.056292 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Mat.mat
-  artifactKey: Guid(9beb7ed604f508d488038ced436b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Mat.mat using Guid(9beb7ed604f508d488038ced436b90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822c0e0079a2ea0d049d042ac6b08712') in 0.014129 seconds 
-  Import took 0.019682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.775741 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a056805a2d4e08fb4ecf56cbe18e594') in 0.003086 seconds 
-  Import took 0.008151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001466 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph
-  artifactKey: Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Shader.shadergraph using Guid(ceb62a59fdea72d4ca5b16ade0793c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a056805a2d4e08fb4ecf56cbe18e594') in 0.003299 seconds 
-  Import took 0.008168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.776764 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring.shadergraph
-  artifactKey: Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring.shadergraph using Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533fc2d1586019386034eb55a907cab1') in 0.003164 seconds 
-  Import took 0.008320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.177975 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring.shadergraph
-  artifactKey: Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring.shadergraph using Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16278e5c5b4cef7967f4294adab579ed') in 0.002971 seconds 
-  Import took 0.007993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.066075 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Shader Graphs_Ring.mat
-  artifactKey: Guid(2cbdd10b304e2de4a9d09e9f9e8c083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Shader Graphs_Ring.mat using Guid(2cbdd10b304e2de4a9d09e9f9e8c083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322ac8b6d3409ecff5845892fdb4895e') in 0.015433 seconds 
-  Import took 0.021237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.868372 seconds.
+  Time since last request: 0.000328 seconds.
   path: Assets/Shader/Destory_builing_Effect/Ring_Mat.mat
   artifactKey: Guid(2cbdd10b304e2de4a9d09e9f9e8c083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring_Mat.mat using Guid(2cbdd10b304e2de4a9d09e9f9e8c083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca2a331dd5fbdcd415141880cb790f9') in 0.012367 seconds 
-  Import took 0.018498 seconds .
+Start importing Assets/Shader/Destory_builing_Effect/Ring_Mat.mat using Guid(2cbdd10b304e2de4a9d09e9f9e8c083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d13a99b769f404a313037996a06d9c') in 0.016132 seconds 
+  Import took 0.024085 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.536731 seconds.
-  path: Assets/Shader/Destory_builing_Effect/Ring.shadergraph
-  artifactKey: Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring.shadergraph using Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a292503acf1495de2abb7a4ed30c0b') in 0.003437 seconds 
-  Import took 0.009260 seconds .
+  Time since last request: 516.150337 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Ring.mat
+  artifactKey: Guid(6167a73c6bd5e7a41a3a8e6b4d63d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Ring.mat using Guid(6167a73c6bd5e7a41a3a8e6b4d63d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b84f4c10517e51dc3366824c259bfe') in 0.010526 seconds 
+  Import took 0.017065 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.564914 seconds.
+  Time since last request: 143.835742 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Ring_Line.png
+  artifactKey: Guid(337d662aee81f884c87c83b1452fc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Ring_Line.png using Guid(337d662aee81f884c87c83b1452fc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d9bf004684faba1e05964e384994fe') in 0.019845 seconds 
+  Import took 0.025611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003283 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Ring_Line.png
+  artifactKey: Guid(337d662aee81f884c87c83b1452fc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Ring_Line.png using Guid(337d662aee81f884c87c83b1452fc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d9bf004684faba1e05964e384994fe') in 0.005136 seconds 
+  Import took 0.010286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.961614 seconds.
   path: Assets/Shader/Destory_builing_Effect/Ring.shadergraph
   artifactKey: Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Destory_builing_Effect/Ring.shadergraph using Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56a0fc262f71fb865968abde592dd17') in 0.002880 seconds 
-  Import took 0.008129 seconds .
+Start importing Assets/Shader/Destory_builing_Effect/Ring.shadergraph using Guid(d7dff3d9f33a93941b6c679aba21f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eb9f054b840b67ce117c2c8c69460d') in 0.004723 seconds 
+  Import took 0.009587 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 151.988371 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Boom_Effect_Shader.shadergraph
+  artifactKey: Guid(e5b5cded1a25e8441abea50e4c20dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Boom_Effect_Shader.shadergraph using Guid(e5b5cded1a25e8441abea50e4c20dd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e0134f5f8de5e71270c27f8176b0b6') in 0.003511 seconds 
+  Import took 0.009318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.617295 seconds.
+  path: Assets/Shader/Destory_builing_Effect/New Material.mat
+  artifactKey: Guid(2775359592b70714e9499ded811845f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/New Material.mat using Guid(2775359592b70714e9499ded811845f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad131c5fa3a3f22195ca68e6e511a4') in 0.012871 seconds 
+  Import took 0.018415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Ring.mat
+  artifactKey: Guid(6167a73c6bd5e7a41a3a8e6b4d63d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Ring.mat using Guid(6167a73c6bd5e7a41a3a8e6b4d63d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402f3de7f96f3f50a592ce0975f9708a') in 0.007654 seconds 
+  Import took 0.012977 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006173 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 158.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3907.
+Total: 2.587300 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.132300 ms MarkObjects: 2.102400 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006587 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 158.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 2.863100 ms (FindLiveObjects: 0.345400 ms CreateObjectMapping: 0.169600 ms MarkObjects: 2.324600 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1077.726058 seconds.
+  path: Assets/Shader/Destory_builing_Effect/IMÁGENES PARA PHOTOSCAPE, PHOTOSHOP Y GIMP DE HUMO.png
+  artifactKey: Guid(de042da2b4ca8824e8a9778b2efd75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/IMÁGENES PARA PHOTOSCAPE, PHOTOSHOP Y GIMP DE HUMO.png using Guid(de042da2b4ca8824e8a9778b2efd75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e27d4deb438b4ef47e6c2571e01e88c') in 0.066988 seconds 
+  Import took 0.071561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.766212 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Smoke.png
+  artifactKey: Guid(de042da2b4ca8824e8a9778b2efd75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Smoke.png using Guid(de042da2b4ca8824e8a9778b2efd75f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09699c8cb4bf5ffc148720999c87515') in 0.006037 seconds 
+  Import took 0.011586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.222765 seconds.
+  path: Assets/Shader/Destory_builing_Effect/smoke.mat
+  artifactKey: Guid(2775359592b70714e9499ded811845f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/smoke.mat using Guid(2775359592b70714e9499ded811845f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad48a780be38fcffa42d40d1dcf32e') in 0.141538 seconds 
+  Import took 0.147039 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 158.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3950.
+Total: 2.748500 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.157500 ms MarkObjects: 2.220200 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 460.594317 seconds.
+  path: Assets/Shader/Destory_builing_Effect/New Material.mat
+  artifactKey: Guid(67f35200669dbc24c85506dcaf4b9336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/New Material.mat using Guid(67f35200669dbc24c85506dcaf4b9336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa145a044b75b6314f64cfac645abd8') in 0.179406 seconds 
+  Import took 0.185616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Ring.mat
+  artifactKey: Guid(6167a73c6bd5e7a41a3a8e6b4d63d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Ring.mat using Guid(6167a73c6bd5e7a41a3a8e6b4d63d686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4a8f4e07a416ecb0541a07a0982bff') in 0.008304 seconds 
+  Import took 0.013501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.505004 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Pop_Mat.mat
+  artifactKey: Guid(67f35200669dbc24c85506dcaf4b9336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Pop_Mat.mat using Guid(67f35200669dbc24c85506dcaf4b9336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d84eefe82e2c0dd6dcb16c5f3a1438a') in 0.007580 seconds 
+  Import took 0.013967 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.3 MB.
+System memory in use after: 158.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3989.
+Total: 2.863500 ms (FindLiveObjects: 0.334600 ms CreateObjectMapping: 0.158500 ms MarkObjects: 2.348500 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.360351 seconds.
+  path: Assets/Shader/Boom_Vfx/Spak_Effect 1.vfx
+  artifactKey: Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Boom_Vfx/Spak_Effect 1.vfx using Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34d86c8d0dda6931d580914da7af817') in 0.036679 seconds 
+  Import took 0.042386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.681558 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Pop_Mat.mat
+  artifactKey: Guid(67f35200669dbc24c85506dcaf4b9336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Pop_Mat.mat using Guid(67f35200669dbc24c85506dcaf4b9336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef6f719accef40dccc167bf375169c3') in 0.165516 seconds 
+  Import took 0.171233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.552958 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx
+  artifactKey: Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx using Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51bf3e189fedb9f3f023d32d1a112fc') in 0.003904 seconds 
+  Import took 0.009550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.715520 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx
+  artifactKey: Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx using Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206bf0c9c1b74d39798308e777a969ca') in 0.004006 seconds 
+  Import took 0.009466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.083813 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx
+  artifactKey: Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx using Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632c355d87f114327466a0dab38c402a') in 0.003751 seconds 
+  Import took 0.009207 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.4 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4028.
+Total: 3.096300 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.221900 ms MarkObjects: 2.430200 ms  DeleteObjects: 0.027300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.484624 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx
+  artifactKey: Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Spak_Boom_VFX.vfx using Guid(f37f795e8d6d3c647aceb94f75a96255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e476bbf778cf60a3efa2acbeb0cd55b9') in 0.031837 seconds 
+  Import took 0.037299 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4031.
+Total: 3.338100 ms (FindLiveObjects: 0.503300 ms CreateObjectMapping: 0.226800 ms MarkObjects: 2.581000 ms  DeleteObjects: 0.025900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.155453 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Destory_B.prefab
+  artifactKey: Guid(3ef08d1bba265244da91045b170fdf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Destory_B.prefab using Guid(3ef08d1bba265244da91045b170fdf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a21e991165030905ed9d7574679e023') in 0.052641 seconds 
+  Import took 0.058354 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.6 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4034.
+Total: 2.978900 ms (FindLiveObjects: 0.368100 ms CreateObjectMapping: 0.128500 ms MarkObjects: 2.425500 ms  DeleteObjects: 0.055600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.143390 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Destory_B.prefab
+  artifactKey: Guid(3ef08d1bba265244da91045b170fdf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Destory_B.prefab using Guid(3ef08d1bba265244da91045b170fdf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34774e794aedf838055b788bbc78355e') in 0.041688 seconds 
+  Import took 0.046985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.738362 seconds.
+  path: Assets/Shader/Destory_builing_Effect/Destory_B.prefab
+  artifactKey: Guid(3ef08d1bba265244da91045b170fdf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Destory_builing_Effect/Destory_B.prefab using Guid(3ef08d1bba265244da91045b170fdf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34774e794aedf838055b788bbc78355e') in 0.008428 seconds 
+  Import took 0.014557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.6 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4037.
+Total: 3.074500 ms (FindLiveObjects: 0.359800 ms CreateObjectMapping: 0.178700 ms MarkObjects: 2.485800 ms  DeleteObjects: 0.048900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
