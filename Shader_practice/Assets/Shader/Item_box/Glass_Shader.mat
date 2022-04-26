@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Spark_Wave_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: e6bbce0bd2a160040a4a2e22704560e9, type: 3}
+  m_Name: Glass_Shader
+  m_Shader: {fileID: -6465566751694194690, guid: e40c5577a4aca2c4fb6216e4007c99a1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,16 +19,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_9c1614a24b8a44a39a3743b74fcd66c5:
-        m_Texture: {fileID: 2800000, guid: 7c5ff3e6291d33544932974e309f6d80, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_df17b93330c24edd9804d535d3ad07f7:
-        m_Texture: {fileID: 2800000, guid: a6a6d1420c0ef314ca45ccbce6db544f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_c528008de7ad44bba81aac482de050fb_Texture_1:
-        m_Texture: {fileID: 2800000, guid: eb288e4a2675835468ab9108cf668daf, type: 3}
+    - Texture2D_b57f6b9dc1c54ef68ca0063868d9335d:
+        m_Texture: {fileID: 2800000, guid: 4e77ce9756eeb8745be3791654c64d54, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -44,7 +36,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ScollSpeed: 1
-    m_Colors:
-    - _MainColor: {r: 3.4842114, g: 1.1407295, b: 0.49253243, a: 1}
+    - Vector1_22294056b27b4d99adb3f08b3b44b24d: 0.5
+    - Vector1_6aa4bb3494bc4704bf34673ef1332253: 20
+    - Vector1_e58d2d68a0e44174b70da8af48919162: 5
+    - _Transparency: 0.5
+    m_Colors: []
   m_BuildTextureStacks: []

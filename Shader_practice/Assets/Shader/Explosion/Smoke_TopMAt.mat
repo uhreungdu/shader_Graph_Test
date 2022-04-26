@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Spark_Wave_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: e6bbce0bd2a160040a4a2e22704560e9, type: 3}
+  m_Name: Smoke_TopMAt
+  m_Shader: {fileID: -6465566751694194690, guid: 8558c2979306ac44bbf0adeee29abf24, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,15 +19,11 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_9c1614a24b8a44a39a3743b74fcd66c5:
-        m_Texture: {fileID: 2800000, guid: 7c5ff3e6291d33544932974e309f6d80, type: 3}
+    - Texture2D_8486324aa1954a1bbfb0bfeb9cd418ba:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - Texture2D_df17b93330c24edd9804d535d3ad07f7:
-        m_Texture: {fileID: 2800000, guid: a6a6d1420c0ef314ca45ccbce6db544f, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_c528008de7ad44bba81aac482de050fb_Texture_1:
+    - Texture2D_a74f9715db944cd6bbfecaae16d2d22d:
         m_Texture: {fileID: 2800000, guid: eb288e4a2675835468ab9108cf668daf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -44,7 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ScollSpeed: 1
+    - _Alphaclip: 0
+    - _Smoothness: 0
+    - _VoroniScale: 7
+    - _VoroniSpeed: 5
     m_Colors:
-    - _MainColor: {r: 3.4842114, g: 1.1407295, b: 0.49253243, a: 1}
+    - _EmissionColor: {r: 0.02, g: 0.006666667, b: 0, a: 1}
+    - _MainColor: {r: 8.47419, g: 2.1296391, b: 0.66551226, a: 1}
   m_BuildTextureStacks: []
