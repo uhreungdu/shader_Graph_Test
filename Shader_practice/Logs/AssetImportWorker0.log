@@ -1,73 +1,73 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1645; Version 2009; 64bit' Language: 'ko' Physical Memory: 8080 MB
+OS: 'Windows 10 Education; OS build 19044.1645; Version 2009; 64bit' Language: 'ko' Physical Memory: 32706 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+C:\Program Files\2020.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/shader_Graph_Test/Shader_practice
+E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7087
-Successfully changed project path to: D:/shader_Graph_Test/Shader_practice
-D:/shader_Graph_Test/Shader_practice
+54256
+Successfully changed project path to: E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
+E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 207.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/shader_Graph_Test/Shader_practice/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/쉐이더 테스트/shader_Graph_Test/Shader_practice/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     4055 MB
-    Driver:   30.0.14.9709
+    VRAM:     4018 MB
+    Driver:   30.0.14.7111
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Mono path[0] = 'C:/Program Files/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004977 seconds.
+Register platform support module: C:/Program Files/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002543 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 237.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.866 seconds
+- Completed reload, in  2.394 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016963 seconds.
+Registered in 0.007891 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 152.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.457 seconds
+- Completed reload, in  1.364 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.6 MB.
-System memory in use after: 161.2 MB.
+Unloading 3394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 170.1 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3802.
-Total: 4.786200 ms (FindLiveObjects: 0.560700 ms CreateObjectMapping: 0.266200 ms MarkObjects: 3.455800 ms  DeleteObjects: 0.501100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3835.
+Total: 2.954100 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.225100 ms MarkObjects: 2.203100 ms  DeleteObjects: 0.192600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -76,38 +76,1843 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shader/Explosion/Explosion.prefab
-  artifactKey: Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/Explosion.prefab using Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9495a688440c804726613b07bdbb74') in 0.134525 seconds 
-  Import took 0.147410 seconds .
+  path: Assets/Shader/Explosion/Ring01.fbx
+  artifactKey: Guid(be12a905417d8d544aca4113415aba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/Ring01.fbx using Guid(be12a905417d8d544aca4113415aba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05636770e0120a03879a081f4df3405') in 0.289402 seconds 
+  Import took 0.294842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 316.349662 seconds.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Shader/Explosion/Beam1_AB.mat
+  artifactKey: Guid(b0480d66a59397445ad8a5693d954dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/Beam1_AB.mat using Guid(b0480d66a59397445ad8a5693d954dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea0486365129e4b658a0e9a7d48c669') in 0.034120 seconds 
+  Import took 0.039948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1748.897088 seconds.
+  path: Assets/Shader/Down_Effect
+  artifactKey: Guid(26455ddb8b08dd843b0b9990ccb6dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect using Guid(26455ddb8b08dd843b0b9990ccb6dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93946ecd0fe830f84adb7847df7cc28c') in 0.003023 seconds 
+  Import took 0.009732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.650759 seconds.
+  path: Assets/Shader/Down_Effect/star.fbx
+  artifactKey: Guid(9e8e2b7e2ee7a4840ae264114c0c5546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/star.fbx using Guid(9e8e2b7e2ee7a4840ae264114c0c5546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a12f3511318c908a544851310f0291') in 0.015892 seconds 
+  Import took 0.021206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.228771 seconds.
+  path: Assets/Shader/Down_Effect/StartShader.shadergraph
+  artifactKey: Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/StartShader.shadergraph using Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf920b725faf67f013b3bed4de39b2b') in 0.006278 seconds 
+  Import took 0.011762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070420 seconds.
+  path: Assets/Shader/Down_Effect/StartShader.shadergraph
+  artifactKey: Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/StartShader.shadergraph using Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf920b725faf67f013b3bed4de39b2b') in 0.005677 seconds 
+  Import took 0.017122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.889589 seconds.
+  path: Assets/Shader/Down_Effect/StartShader.shadergraph
+  artifactKey: Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/StartShader.shadergraph using Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb61238e5e58f06e33c02e6f52c74f6') in 0.003017 seconds 
+  Import took 0.008053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.569217 seconds.
+  path: Assets/Shader/Down_Effect/StartMat.mat
+  artifactKey: Guid(b5d00f319d486094bb3a383337385993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/StartMat.mat using Guid(b5d00f319d486094bb3a383337385993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc0a02bae02b0b994d4e3c738919044') in 0.011881 seconds 
+  Import took 0.018235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.207068 seconds.
   path: Assets/Shader/Explosion/Beam1 1.mat
   artifactKey: Guid(87511050c799fab46a690a754a5d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/Beam1 1.mat using Guid(87511050c799fab46a690a754a5d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce91fa070363a4b6d4454b9bfec57250') in 0.441817 seconds 
-  Import took 0.458872 seconds .
+Start importing Assets/Shader/Explosion/Beam1 1.mat using Guid(87511050c799fab46a690a754a5d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffab7a4a504f9f40362ff8951fe9ffd') in 0.019209 seconds 
+  Import took 0.025735 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Shader/Explosion/RingMat.mat
-  artifactKey: Guid(d2f5ee7a5cb1e6842831b2936df85aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/RingMat.mat using Guid(d2f5ee7a5cb1e6842831b2936df85aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39949089efa9ddf5a3c96bb9196dae4f') in 0.034974 seconds 
-  Import took 0.104341 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/Shader/Explosion/RingMat 1.mat
+  artifactKey: Guid(eb4e70f5e6c228645b69e80e8216f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/RingMat 1.mat using Guid(eb4e70f5e6c228645b69e80e8216f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f29eb0e4b5bb60589913015ea2a674a') in 0.010580 seconds 
+  Import took 0.016478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 318.331452 seconds.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Shader/Explosion/Beam1 1.mat
+  artifactKey: Guid(87511050c799fab46a690a754a5d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/Beam1 1.mat using Guid(87511050c799fab46a690a754a5d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffab7a4a504f9f40362ff8951fe9ffd') in 0.009525 seconds 
+  Import took 0.014723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Shader/Explosion/Beam1.mat
+  artifactKey: Guid(7adc6160ed5171b419008a86276ff662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/Beam1.mat using Guid(7adc6160ed5171b419008a86276ff662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850b9b0d7050812d763136ce280dde44') in 0.009798 seconds 
+  Import took 0.015251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
   path: Assets/Shader/Explosion/Explosion.prefab
   artifactKey: Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/Explosion.prefab using Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022a1c7b19316d7bbca178031a22b5e3') in 0.015523 seconds 
-  Import took 0.220157 seconds .
+Start importing Assets/Shader/Explosion/Explosion.prefab using Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278a099f3d81c19ffc873efdae4923dd') in 0.034014 seconds 
+  Import took 0.041021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Shader/Explosion/Impact01.png
+  artifactKey: Guid(6a8776685af23914c89ee1dff5067324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/Impact01.png using Guid(6a8776685af23914c89ee1dff5067324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344ad9b8f3e7262dfc6eec3a4fd0f0b4') in 0.019002 seconds 
+  Import took 0.024453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Shader/Explosion/RingMat.mat
+  artifactKey: Guid(d2f5ee7a5cb1e6842831b2936df85aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/RingMat.mat using Guid(d2f5ee7a5cb1e6842831b2936df85aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7a051ac4e4ddc4c7d7883e7de6119b') in 0.011352 seconds 
+  Import took 0.016604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.184598 seconds.
+  path: Assets/Shader/Explosion/SimpleParticleShader.shadergraph
+  artifactKey: Guid(0b790b258b67e484f98c8d26c88b0304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/SimpleParticleShader.shadergraph using Guid(0b790b258b67e484f98c8d26c88b0304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd61c4cadf53fa01ac78d28fda4078a') in 0.002608 seconds 
+  Import took 0.008536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.830697 seconds.
+  path: Assets/Shader/Explosion/ErosionTextureShader.shadergraph
+  artifactKey: Guid(fc547295e7c05f145908bcfc0444af7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Explosion/ErosionTextureShader.shadergraph using Guid(fc547295e7c05f145908bcfc0444af7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3b58f11ca453d5446d8c5fb19aa55') in 0.002527 seconds 
+  Import took 0.008277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.178990 seconds.
+  path: Assets/Shader/Boom_Vfx/boom_Test_Mat.mat
+  artifactKey: Guid(18f76c071c4775d4d911467de0de42aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Boom_Vfx/boom_Test_Mat.mat using Guid(18f76c071c4775d4d911467de0de42aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fabed2ce19ce7f433284ad8f341ca6') in 0.416720 seconds 
+  Import took 0.422816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.408181 seconds.
+  path: Assets/Shader/Item_Effect/Buff_Effect 1.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Item_Effect/Buff_Effect 1.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d9e4d40508c3d7391ad22574d37e0c') in 0.017158 seconds 
+  Import took 0.023305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003111 seconds.
+  path: Assets/Shader/Item_Effect/Buff_Effect 1.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Item_Effect/Buff_Effect 1.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d9e4d40508c3d7391ad22574d37e0c') in 0.011852 seconds 
+  Import took 0.016900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.654535 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be281fa73923da153bf063cd57f7e4c0') in 0.013159 seconds 
+  Import took 0.019512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.662670 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af95d1a5b69b4789180bea8faffa09db') in 0.011155 seconds 
+  Import took 0.016233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793286 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9d897f6d7e764ff218626dfc781c80') in 0.011280 seconds 
+  Import took 0.017031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.588935 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9698a9aa1dffe032072a4a42f1b56aa') in 0.012146 seconds 
+  Import took 0.018044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798717 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abf8a9eb5aa4c9ec48ecbd5f2c6a012') in 0.008876 seconds 
+  Import took 0.014153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.432616 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b8e331a3f6d0f8c623c526d76f7c2e') in 0.010913 seconds 
+  Import took 0.016079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.337930 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6b3de4fa88b00d7cb861f10cb8d5ee') in 0.010507 seconds 
+  Import took 0.015784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994948 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdbead5caf1435dcfc24b66cea3755d') in 0.011554 seconds 
+  Import took 0.017157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.605060 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65144122740cdf2edb64b02aec88a982') in 0.011590 seconds 
+  Import took 0.017264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804822 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1fe213baf1ca9099b609ef62e68b14') in 0.011869 seconds 
+  Import took 0.017869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.587170 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083197041d8d5989124e62aa7a8578c4') in 0.010055 seconds 
+  Import took 0.015622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.624254 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de05281d6ea5beda71df15c2f0a5c67') in 0.010638 seconds 
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792875 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a258549200f79097b828a22e5cb2a69a') in 0.010403 seconds 
+  Import took 0.016118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591869 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3776b29ba2eca47f4daf351a8d7fbcbd') in 0.009707 seconds 
+  Import took 0.014841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.602991 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b173608cf16b72f2bd92b555f21f25') in 0.009830 seconds 
+  Import took 0.015801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994931 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b29e0ab94dbc60cf51075bf9839c0') in 0.011499 seconds 
+  Import took 0.016559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.804813 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abba38623de42bde8328a29cf72d56df') in 0.010793 seconds 
+  Import took 0.033562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.587193 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576080d68e31d3a45dc7a59054d8b538') in 0.010608 seconds 
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.403719 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148135ff42a5a64d3d39091778b910e0') in 0.009652 seconds 
+  Import took 0.015171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.282468 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9be0ff525a74a09a39f431f92998e64') in 0.022448 seconds 
+  Import took 0.029170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.640949 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd382817aa3014d1da3fd63a3f9c66390') in 0.013503 seconds 
+  Import took 0.019122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.869896 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71da89de43d2843857a5847489755f49') in 0.013336 seconds 
+  Import took 0.018656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.008503 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3872c219213241a0cff450f8fc66c0') in 0.013803 seconds 
+  Import took 0.019056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.095685 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db006e7034b855d8d51e9a23d6fe29f') in 0.014409 seconds 
+  Import took 0.020665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.283701 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67294d73bc229ba5afeffe3678d75bca') in 0.014600 seconds 
+  Import took 0.020044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.838032 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026a42734b221bdc27c8968e34f4cf72') in 0.013506 seconds 
+  Import took 0.019101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.231535 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4306dff66aa5c218693f0a33a370ce68') in 0.014029 seconds 
+  Import took 0.020024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.966302 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2a261ef67cb6a6674bbbc1e9a9ab71') in 0.014263 seconds 
+  Import took 0.020810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.766569 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9353faea65abac047284decd15edde14') in 0.013870 seconds 
+  Import took 0.020082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.058202 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e1ef2a4c362deae964779e9a1cd55a') in 0.013280 seconds 
+  Import took 0.018856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.237120 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffcadfaa8f7635c17d046def54cf985') in 0.014241 seconds 
+  Import took 0.042193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.567103 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec05c059d5054664a2765cadfd3c48a') in 0.013869 seconds 
+  Import took 0.020494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.638013 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01db000084e44a27bb8d0753cd36e59') in 0.013918 seconds 
+  Import took 0.026986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.798475 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba5e0ed1920438dc24ac6490bab80d4') in 0.014441 seconds 
+  Import took 0.019916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.411653 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091c61f8de104b477109b26347fef810') in 0.015171 seconds 
+  Import took 0.021173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.015092 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f64ba71c55d4da83cb7be84e6b88fa') in 0.013305 seconds 
+  Import took 0.019127 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.8 MB.
+System memory in use after: 162.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3922.
+Total: 2.760000 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.217200 ms MarkObjects: 2.155900 ms  DeleteObjects: 0.040900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.729270 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae94335c26c50602cc8b49a8351083e') in 0.179961 seconds 
+  Import took 0.186136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.797489 seconds.
+  path: Assets/Shader/Down_Effect/Down_Vfx.shadergraph
+  artifactKey: Guid(88f9e0dc45fd6bc4392d2b5545e3ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Vfx.shadergraph using Guid(88f9e0dc45fd6bc4392d2b5545e3ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4827eeb16950bd62e078bd27df7b23') in 0.006437 seconds 
+  Import took 0.011249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.802072 seconds.
+  path: Assets/Shader/Down_Effect/New Lighting Settings.lighting
+  artifactKey: Guid(4f27ea8f5369b9a48b7d08b0fa9ea65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/New Lighting Settings.lighting using Guid(4f27ea8f5369b9a48b7d08b0fa9ea65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629cc139763da6ddcc4cdcfabcba64d5') in 0.004496 seconds 
+  Import took 0.009720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.485843 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a28f342b6e38435db2e12cb4a03473') in 0.007081 seconds 
+  Import took 0.012132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.255658 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e9df69cfc6c82dceceabb8299a4d55') in 0.003580 seconds 
+  Import took 0.034704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e9df69cfc6c82dceceabb8299a4d55') in 0.003385 seconds 
+  Import took 0.008263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.550248 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d9949c9e12eab62a8c996436eb293b') in 0.003554 seconds 
+  Import took 0.008776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.238054 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99800fb1de7cb91bb158a609d98930e') in 0.003346 seconds 
+  Import took 0.008150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007134 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99800fb1de7cb91bb158a609d98930e') in 0.003270 seconds 
+  Import took 0.008082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.125224 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00b20bc4fd228ff2782cdba3bad2735') in 0.004923 seconds 
+  Import took 0.009964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003968 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00b20bc4fd228ff2782cdba3bad2735') in 0.004476 seconds 
+  Import took 0.009905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.082799 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1f415bca173b158cb08fa43f7c7264') in 0.003423 seconds 
+  Import took 0.008424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001716 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1f415bca173b158cb08fa43f7c7264') in 0.003996 seconds 
+  Import took 0.008964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 372.844234 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cda9e3ff4872038fc6365627d3928c3') in 0.004007 seconds 
+  Import took 0.009624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007117 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cda9e3ff4872038fc6365627d3928c3') in 0.003350 seconds 
+  Import took 0.008610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.674034 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8190f10699e99cb4318cf538b928cf3a') in 0.004229 seconds 
+  Import took 0.010451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.677654 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b6f3c85710f024e46d4b7ab767e5f9') in 0.003435 seconds 
+  Import took 0.008657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000794 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b6f3c85710f024e46d4b7ab767e5f9') in 0.003250 seconds 
+  Import took 0.008294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.640208 seconds.
+  path: Packages/com.unity.visualeffectgraph/package.json
+  artifactKey: Guid(6f8f5c087a5cb4bd19c1e4898d57e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/package.json using Guid(6f8f5c087a5cb4bd19c1e4898d57e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fb5d99bc0c1e681dec2a97dbb54215') in 0.066667 seconds 
+  Import took 0.071527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Packages/com.unity.visualeffectgraph/Unity.VisualEffectGraph.Runtime.asmdef
+  artifactKey: Guid(d04eb9c554ad44ceab303cecf0c0cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Unity.VisualEffectGraph.Runtime.asmdef using Guid(d04eb9c554ad44ceab303cecf0c0cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a8c0d09fc23750b5776531514b766b') in 0.003520 seconds 
+  Import took 0.008509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.292962 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00f8653697d90f58c2ee094cefcb234') in 0.003996 seconds 
+  Import took 0.010680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.444054 seconds.
+  path: Assets/Shader/Down_Effect/Down_VFX.vfx
+  artifactKey: Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_VFX.vfx using Guid(6000ad38464293a409290995159762af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cefee87f27dd2600e550b39951133f5') in 0.003985 seconds 
+  Import took 0.010406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.627219 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012f97ddc57d381a320b7c393df94d44') in 0.010080 seconds 
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.018225 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d39e19ea0e4afad73614d6cdb0f8581') in 0.008110 seconds 
+  Import took 0.013263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.239187 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e113249c2a67974448dfc5b1760351') in 0.009583 seconds 
+  Import took 0.014890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.252663 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29baefd67a858d7c877d148ab230e9bb') in 0.008392 seconds 
+  Import took 0.013492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.466409 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900b7945c3642cb03dd7455fd90876c2') in 0.008979 seconds 
+  Import took 0.014307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.587979 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3a4536cd186ea25156e96b75e71327') in 0.008626 seconds 
+  Import took 0.013813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.640395 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928856dafc921eb2baebf24d9e87c37f') in 0.008917 seconds 
+  Import took 0.015051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.280056 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0162c10232ccbfe8fadb4f6f2d490771') in 0.009452 seconds 
+  Import took 0.015787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.760731 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b431ca8f8a174f11d99f2b846a123f') in 0.009005 seconds 
+  Import took 0.015325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.057633 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c067936d36acd79ac135ebc5b183e1f') in 0.009248 seconds 
+  Import took 0.014364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.016943 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3961035c07620b6e5c2b339a656c10e1') in 0.009012 seconds 
+  Import took 0.014485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 432.011766 seconds.
+  path: Assets/Shader/Down_Effect/star 1.fbx
+  artifactKey: Guid(5e2e2ff89248f304883ff3e9196b77ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/star 1.fbx using Guid(5e2e2ff89248f304883ff3e9196b77ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbdc6eb6b5c18b289cfa4163c5c38ba') in 0.028158 seconds 
+  Import took 0.033820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.317856 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a077d87d025e16274ca4dbb4342b3bf9') in 0.004148 seconds 
+  Import took 0.009537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.274426 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b7d28a948f75c131a002337f07327c') in 0.003914 seconds 
+  Import took 0.008989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.304420 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a46f7f3ed7ce208c244a4351bc7e0d') in 0.008553 seconds 
+  Import took 0.013956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.113734 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268607d412000093b38e7358bf83c0a6') in 0.009061 seconds 
+  Import took 0.014537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.666673 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f77f9d36775338c5e11fb783457800') in 0.009111 seconds 
+  Import took 0.033716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.995617 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0926e6cf871ba9bb245eb540ac9198') in 0.008286 seconds 
+  Import took 0.014341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.829676 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29256bad0ace9dca44546b4e22179301') in 0.008105 seconds 
+  Import took 0.013365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.003715 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfe43f328e94db61d072141921d5e53') in 0.007812 seconds 
+  Import took 0.013390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.600787 seconds.
+  path: Assets/Shader/Down_Effect/star2.fbx
+  artifactKey: Guid(c9adddf9d5d69734b90f9aaea10f656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/star2.fbx using Guid(c9adddf9d5d69734b90f9aaea10f656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5962546bcac7af500813961c72529209') in 0.013221 seconds 
+  Import took 0.019032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.809028 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a160ebed01fed1311df61b2ce55975') in 0.010507 seconds 
+  Import took 0.015861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.397808 seconds.
+  path: Assets/Shader/Down_Effect/star2.fbx
+  artifactKey: Guid(c9adddf9d5d69734b90f9aaea10f656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/star2.fbx using Guid(c9adddf9d5d69734b90f9aaea10f656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c823c24aeb988c52dda1f2498006af36') in 0.011916 seconds 
+  Import took 0.016854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.203290 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4880876099cae4d6e8ca7f316015a1d') in 0.008267 seconds 
+  Import took 0.014100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.429584 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d72fc4b9b97be0b230f302c6213b0f') in 0.008129 seconds 
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.588090 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7443b93688805a35e89b6717bb085b') in 0.008304 seconds 
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.010051 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6648799f60c5368b4749bc4efb7ed6a') in 0.007751 seconds 
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.024158 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea96cce0344c890ca4d557e492ceadc') in 0.008939 seconds 
+  Import took 0.014828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388804 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe9cbc4d32436394571ffacc048130b') in 0.008797 seconds 
+  Import took 0.014424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199391 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02eceb8a0fc5361550e261067af0995') in 0.008699 seconds 
+  Import took 0.014049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591757 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1d9a94593ce41d6cf8b937eb66a155') in 0.008875 seconds 
+  Import took 0.015016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.058344 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f037339892b0325c07802860a767e25d') in 0.009077 seconds 
+  Import took 0.014441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.215913 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdc3d8e1f6672e43bca49e69ddf8e55') in 0.011517 seconds 
+  Import took 0.017449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.626826 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02db9ce3cdaa8428444dd10544ef821') in 0.008558 seconds 
+  Import took 0.014809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.049084 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb77dc0c5a09f6c1f2e09a21dbe2a89') in 0.009638 seconds 
+  Import took 0.014793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.414670 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e7034055f5141bbbd0359dd4be1872') in 0.008967 seconds 
+  Import took 0.014582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.228228 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2e2884824108d43eb3f6c3b64d8e23') in 0.009687 seconds 
+  Import took 0.015695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.484445 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fb7cad5c3032fcb16a6ce57c4032d6') in 0.009106 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.489221 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108353bd1873b023fad775fdf836a2f3') in 0.009260 seconds 
+  Import took 0.014971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792312 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbaada630305e7a3ae1896d1bd2ca8f') in 0.009254 seconds 
+  Import took 0.015868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395708 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd870366fb69fc2948f61232e4662eb41') in 0.009479 seconds 
+  Import took 0.015048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.363763 seconds.
+  path: Assets/Shader/Down_Effect/effect_pos_check.fbx
+  artifactKey: Guid(7d3d49a6eebc23c48a7ca9791cb8157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/effect_pos_check.fbx using Guid(7d3d49a6eebc23c48a7ca9791cb8157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3bac4a52bb02736a0da0788ff962cc') in 0.011979 seconds 
+  Import took 0.017227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.334652 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d7d95f25eb1bc655eb5ae6d465c748') in 0.007934 seconds 
+  Import took 0.014847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.806509 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e3aa9fdca63b9bc6dfcc89de99da19') in 0.008959 seconds 
+  Import took 0.015318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.206350 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85f574f96a28ae0fcd01b93dce6bb8c') in 0.008204 seconds 
+  Import took 0.013552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.141090 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583105de8b4c0588890799ff22a45fcb') in 0.009909 seconds 
+  Import took 0.016422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.653681 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2d18208dd35312bc7a436d7a55c7c0') in 0.010543 seconds 
+  Import took 0.016584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.448585 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e663a1406103b603500894cc7a71002') in 0.010180 seconds 
+  Import took 0.015957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.968677 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d520d540ddbcc726c1e0d707a62153') in 0.009340 seconds 
+  Import took 0.024473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.994758 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b28331ef47f46371cd150d5d0ac27ba') in 0.009680 seconds 
+  Import took 0.039038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.027446 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6196398ae507f0b4acbf1ec1ae006f1') in 0.009125 seconds 
+  Import took 0.014870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.812431 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f11ac9aa674ef9b063ecf60115b4d9') in 0.010467 seconds 
+  Import took 0.016191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.222650 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a5424c24706d2035b40278821c4e36') in 0.009273 seconds 
+  Import took 0.015251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.431659 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4144d99d148620ca8691528b6ccef2ef') in 0.009026 seconds 
+  Import took 0.014815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.085270 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0231abf9cac12fced490ead19b845e') in 0.009924 seconds 
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.446021 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e481e754c0d47eb8d5823bbbeee92d0') in 0.009422 seconds 
+  Import took 0.015365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402730 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340c11336903f9c564cef54872fe7543') in 0.011072 seconds 
+  Import took 0.017024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.262796 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3264f1f69e81f2e7d7b1fb0812bb388') in 0.009281 seconds 
+  Import took 0.014967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.873083 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19b1f045378b6c8876993c75b7db563') in 0.010629 seconds 
+  Import took 0.016000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.857084 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd7fede77f7aaa2701276b6502852e5') in 0.010075 seconds 
+  Import took 0.016150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.542995 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159f3bb5b95d388c1f9170715ad9f0df') in 0.009450 seconds 
+  Import took 0.015650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.456478 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9ba8f9b8df231c12369a7323480d8e') in 0.009926 seconds 
+  Import took 0.016092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.947794 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20f826cc22b3b0122bd34d522b00f25') in 0.010447 seconds 
+  Import took 0.015929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.987832 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526e91ce02762b81df8e0543c4885f32') in 0.009833 seconds 
+  Import took 0.016679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.812190 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48ac88d8f4303d1fa7844d04344ba4f') in 0.011249 seconds 
+  Import took 0.017011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.880625 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0377a00f0adaebae41aaaa781c3f1a2') in 0.008824 seconds 
+  Import took 0.015239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.094107 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc1d9bede0071e1b7e7dbf716b605e0') in 0.008771 seconds 
+  Import took 0.014695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.466085 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b25a2d220c5d91584de81ba10d8124') in 0.009024 seconds 
+  Import took 0.014278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.149581 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec453242c4a81146fb8565318ad9cb72') in 0.008830 seconds 
+  Import took 0.015467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.048838 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963f9dd9bf7c6ef94582714cacac1db0') in 0.009498 seconds 
+  Import took 0.016742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.666428 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e766c78778c7ca1f5d14299d95bacc94') in 0.009289 seconds 
+  Import took 0.014876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.608051 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96b89f579a0d07547fa333df92740b0') in 0.008803 seconds 
+  Import took 0.014974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.425840 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37281f0824d06a3e31e873aff029dbd6') in 0.008529 seconds 
+  Import took 0.014802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.724429 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a101b1e61c0b89b9d277420841d3b72') in 0.012481 seconds 
+  Import took 0.018531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.410475 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ab8d91a0ac95748f0c2b9b5f2fc8fd') in 0.008835 seconds 
+  Import took 0.015342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.104951 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a234c90c73373cdf3784ff61c965cc49') in 0.009702 seconds 
+  Import took 0.016019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.901839 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c19a0aa91c67ec0c3a7489f390e8719') in 0.009296 seconds 
+  Import took 0.014648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.863130 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2103aef950bd58a6dd2edc57ba8e580') in 0.008344 seconds 
+  Import took 0.014289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589653 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eba6e3d6379a5d7cdf48188be20efb0') in 0.008377 seconds 
+  Import took 0.014240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794606 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c626c6daa7dc48dcfc198e2b223923') in 0.009839 seconds 
+  Import took 0.016319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.422046 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abf3faf26df6cf71b88f6e2bb970f71') in 0.007770 seconds 
+  Import took 0.012989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.393554 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dd16ccbddd3cc371695f1e399a062a') in 0.008019 seconds 
+  Import took 0.024157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.322572 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517a6429d16088c5f18c4f1d74dacc5') in 0.009360 seconds 
+  Import took 0.029804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.627552 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a4c106ca74b23a4a458e62ab5ecdb9') in 0.008652 seconds 
+  Import took 0.015002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.206031 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eabb0a9975ba9a463ce0acc99df51a0') in 0.008207 seconds 
+  Import took 0.013525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798434 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf0913666801cbc57cc6ffeedd77dde') in 0.009184 seconds 
+  Import took 0.014696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.588998 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb86d0369d11be4fd35c58f8862c9d3') in 0.008592 seconds 
+  Import took 0.014316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.053044 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e6e9107123bf258e93068bf6bf98d1') in 0.009819 seconds 
+  Import took 0.015904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.010151 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c1d7c2d356283011cfca494d7745fe') in 0.009461 seconds 
+  Import took 0.015727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.613214 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf55b2e0c1fcfb73821f0ab99c3e4c3') in 0.008255 seconds 
+  Import took 0.014453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.008616 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a896d33651758b227f9d9a6f0b15a2b1') in 0.010003 seconds 
+  Import took 0.016008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.400607 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eed8d9043b821767d028b152b09e4d') in 0.009836 seconds 
+  Import took 0.015703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.029517 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06b86aa7ba0f9a240786a8a3502fb56') in 0.008828 seconds 
+  Import took 0.014835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814320 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b2aa00221003dfd45e80f31e7eb26d') in 0.008576 seconds 
+  Import took 0.014384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.415460 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30422a0d990985b5258b413a56e4e76b') in 0.009168 seconds 
+  Import took 0.014454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.606730 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2074418e742e2e1b0ffda980ea21511') in 0.009505 seconds 
+  Import took 0.016031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.081657 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c1ae85cbeefd62c2cb30538a4482ff') in 0.009084 seconds 
+  Import took 0.015377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001887 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f0b0d94b57f0481a975993e9a92bc0') in 0.009537 seconds 
+  Import took 0.015088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.198360 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9a9727eaf5c9ee5fb2c9820bd3c2f6') in 0.011012 seconds 
+  Import took 0.016858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.263862 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8543e0396bac251c4f41d8bc3037c2') in 0.007989 seconds 
+  Import took 0.013332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.839173 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23e6ba9d3e037ea62adf25ab4fa0fe4') in 0.009434 seconds 
+  Import took 0.014976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.217615 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37a8b8233d8eb3ca1a5fd01c43b4b51') in 0.009353 seconds 
+  Import took 0.015696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.826263 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3493d2ab5c18d974cc7dec4842c0a724') in 0.008529 seconds 
+  Import took 0.014394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.023994 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4532c7a01bca97e7b62e18655ca07e03') in 0.008861 seconds 
+  Import took 0.014419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.832786 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9917f413bd4df143a29691ef03f564') in 0.008886 seconds 
+  Import took 0.015705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.249612 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea987aa0987f3f6f148272dc85fa010c') in 0.008504 seconds 
+  Import took 0.014031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.051738 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cf01fe58eb98faa6562c4a216e57b8') in 0.008906 seconds 
+  Import took 0.014751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.224930 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ce0b0866a6f52fa5eb222389d34a66') in 0.009018 seconds 
+  Import took 0.015543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.252947 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d1ebeb2684dd367c49251572dbb2a2') in 0.009304 seconds 
+  Import took 0.015095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.396206 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1ac2b117d9dee62f1a8b9675e1cea4') in 0.008977 seconds 
+  Import took 0.014902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.416232 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed4249209fb15dcf21a61bb0ebe3129') in 0.009395 seconds 
+  Import took 0.015908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.299490 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518311d7825fa02756e64cd956a41a04') in 0.009115 seconds 
+  Import took 0.014257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.825995 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c17294c86ce49e4b14e7668abab9aa7') in 0.009062 seconds 
+  Import took 0.015030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.418713 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaf97f0efd4005a27c41f212e0bc555') in 0.011473 seconds 
+  Import took 0.017130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.611525 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6d4376ef0de0037436f2e5f5f621e1') in 0.008474 seconds 
+  Import took 0.014305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.419147 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520983db479b6f899db941bf8545df78') in 0.008137 seconds 
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.810131 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2feb28fe2353010e08ab831cfa5026e') in 0.008781 seconds 
+  Import took 0.014890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.270651 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f2ea537139a503e538846e408286d6') in 0.009692 seconds 
+  Import took 0.015345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.010324 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa969e824137dcec554c68d89c9005c') in 0.010321 seconds 
+  Import took 0.016586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.825550 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a635bafeb103ac684e4fd5bf95fe0d9c') in 0.009226 seconds 
+  Import took 0.015095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.259634 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4362775da21edde057949a3fc4af2148') in 0.010784 seconds 
+  Import took 0.017031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.184571 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539c9451fcee1afdb4e74f0b8f387bca') in 0.009052 seconds 
+  Import took 0.015077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.633158 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f426ca72734962047fab8f630f77d20') in 0.009105 seconds 
+  Import took 0.015871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.258654 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5cc96d9101027edfa651d04f0e2a59') in 0.008538 seconds 
+  Import took 0.013929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.052225 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb18880dc5e9f95a76d5e927d6633918') in 0.008836 seconds 
+  Import took 0.015056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.452439 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9450788af944ac7c1340945ae5bbf10f') in 0.008876 seconds 
+  Import took 0.014754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.314808 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8a23cf196a77f05a6aeed97b167988') in 0.008614 seconds 
+  Import took 0.030645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.614452 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f3ee520450b4564d725bfd09127256') in 0.009865 seconds 
+  Import took 0.015737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.229848 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f0b0b430145835c2a0e851fdc73fec') in 0.009008 seconds 
+  Import took 0.014402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.208101 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dedc3391e72464161f540afebbb068') in 0.008981 seconds 
+  Import took 0.015648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.413226 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09f09de15c5e6573550e2c2b0e74ebe') in 0.008346 seconds 
+  Import took 0.013870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.581803 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049a54cea632623acdb094e34a45e2f3') in 0.008870 seconds 
+  Import took 0.015513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.009427 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784b646fa84f97730bc5a64864428f12') in 0.008507 seconds 
+  Import took 0.014384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.010858 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2daa67394e861a9c137e098b20079f') in 0.009432 seconds 
+  Import took 0.014825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.587994 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b41540406c30e3a881fb308a2f2ab2') in 0.009924 seconds 
+  Import took 0.016344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.014114 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fdc90f6ca2a82e7ab1b3fa510ded19') in 0.008749 seconds 
+  Import took 0.014705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.598913 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed3293806b0c17983713f0684786138') in 0.009602 seconds 
+  Import took 0.016029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.804179 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ce0aafcf267ec988f4e0cde7ed7ecd') in 0.008827 seconds 
+  Import took 0.015617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.196004 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f89cca9cb4c2424943095dfc3fbe877') in 0.008593 seconds 
+  Import took 0.014450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804743 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb7f294a5bdee8acbc12df82c43ee13') in 0.009810 seconds 
+  Import took 0.016476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795060 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4a09be69d18a25ca77c793d4abf076') in 0.008799 seconds 
+  Import took 0.014811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.196416 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba10312baa4bd32a0efb06aa24a47617') in 0.010762 seconds 
+  Import took 0.016828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.776790 seconds.
+  path: Assets/Shader/Down_Effect/Down_Effect.prefab
+  artifactKey: Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/Down_Effect.prefab using Guid(c5fb82608baed594aacce0f9e3bd4f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9303b14f45482386a6c39542e3b99d3') in 0.008123 seconds 
+  Import took 0.014222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.0 MB.
+System memory in use after: 162.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3962.
+Total: 2.876500 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.239800 ms MarkObjects: 2.225700 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 432.340556 seconds.
+  path: Assets/Shader/Down_Effect/StartShader.shadergraph
+  artifactKey: Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Down_Effect/StartShader.shadergraph using Guid(73c7e0e4fcb98c74588e6d53aebdd0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5516480333d3e5164dc16d4d6ac40992') in 0.036946 seconds 
+  Import took 0.042814 seconds .
 
