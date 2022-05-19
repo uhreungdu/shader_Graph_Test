@@ -1,73 +1,73 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1645; Version 2009; 64bit' Language: 'ko' Physical Memory: 8080 MB
+OS: 'Windows 10 Education; OS build 19044.1706; Version 2009; 64bit' Language: 'ko' Physical Memory: 32706 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+C:\Program Files\2020.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/shader_Graph_Test/Shader_practice
+E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7087
-Successfully changed project path to: D:/shader_Graph_Test/Shader_practice
-D:/shader_Graph_Test/Shader_practice
+59868
+Successfully changed project path to: E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
+E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 207.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/shader_Graph_Test/Shader_practice/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/쉐이더 테스트/shader_Graph_Test/Shader_practice/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     4055 MB
-    Driver:   30.0.14.9709
+    VRAM:     4018 MB
+    Driver:   30.0.14.7111
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Mono path[0] = 'C:/Program Files/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004977 seconds.
+Register platform support module: C:/Program Files/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002410 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 237.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.866 seconds
+- Completed reload, in  1.881 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016963 seconds.
+Registered in 0.006012 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 152.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.457 seconds
+- Completed reload, in  1.142 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.6 MB.
-System memory in use after: 161.2 MB.
+Unloading 3405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.9 MB.
+System memory in use after: 174.1 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3802.
-Total: 4.786200 ms (FindLiveObjects: 0.560700 ms CreateObjectMapping: 0.266200 ms MarkObjects: 3.455800 ms  DeleteObjects: 0.501100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3846.
+Total: 3.002600 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.122800 ms MarkObjects: 2.336000 ms  DeleteObjects: 0.177000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -76,38 +76,150 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shader/Explosion/Explosion.prefab
-  artifactKey: Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/Explosion.prefab using Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9495a688440c804726613b07bdbb74') in 0.134525 seconds 
-  Import took 0.147410 seconds .
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a2ba2c7fff610e715bbe51775dfc95') in 0.059268 seconds 
+  Import took 0.065225 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 316.349662 seconds.
-  path: Assets/Shader/Explosion/Beam1 1.mat
-  artifactKey: Guid(87511050c799fab46a690a754a5d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/Beam1 1.mat using Guid(87511050c799fab46a690a754a5d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce91fa070363a4b6d4454b9bfec57250') in 0.441817 seconds 
-  Import took 0.458872 seconds .
+  Time since last request: 27.102741 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9bc0009e248e67984386d6a1959d1a') in 0.003999 seconds 
+  Import took 0.008802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Shader/Explosion/RingMat.mat
-  artifactKey: Guid(d2f5ee7a5cb1e6842831b2936df85aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/RingMat.mat using Guid(d2f5ee7a5cb1e6842831b2936df85aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39949089efa9ddf5a3c96bb9196dae4f') in 0.034974 seconds 
-  Import took 0.104341 seconds .
+  Time since last request: 0.011187 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9bc0009e248e67984386d6a1959d1a') in 0.003142 seconds 
+  Import took 0.008238 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 318.331452 seconds.
-  path: Assets/Shader/Explosion/Explosion.prefab
-  artifactKey: Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Explosion/Explosion.prefab using Guid(84309fdd9219f1d43b57248b43322cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022a1c7b19316d7bbca178031a22b5e3') in 0.015523 seconds 
-  Import took 0.220157 seconds .
+  Time since last request: 1.067425 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1aec5f79d404e7e30d6d6461409797') in 0.003078 seconds 
+  Import took 0.008178 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014085 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1aec5f79d404e7e30d6d6461409797') in 0.003964 seconds 
+  Import took 0.009686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.504299 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e9dc55a6fca31a94a69c0bd50e99c4') in 0.002954 seconds 
+  Import took 0.008050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.056748 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c423a8138bd7a3380d9c9a3fdf047a3') in 0.003005 seconds 
+  Import took 0.008931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001180 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c423a8138bd7a3380d9c9a3fdf047a3') in 0.003436 seconds 
+  Import took 0.008829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.207130 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c2127dfdac823640c8ed9c6a78887b') in 0.003173 seconds 
+  Import took 0.008333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.687250 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c913b3700c99723d4bd16bd7ea74198c') in 0.003168 seconds 
+  Import took 0.008123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.227252 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8f1aa5c9f582eee07c18d0cabd78cd') in 0.003305 seconds 
+  Import took 0.008237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175185 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc9823c931d2cbab0189ea475a03cde') in 0.003265 seconds 
+  Import took 0.008877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.945623 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa826bacad72b406213177275c6c1b9') in 0.003291 seconds 
+  Import took 0.008211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.894542 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b10ee92a2666bea60b73adbae3d471') in 0.003314 seconds 
+  Import took 0.008327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.236904 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3b95b0511d18b673f4229c74181164') in 0.003240 seconds 
+  Import took 0.008390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.035492 seconds.
+  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
+  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ddf491c0ead702721b25dee0394d1b') in 0.004181 seconds 
+  Import took 0.010274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 604.844552 seconds.
+  path: Assets/Shader/stylized_beam/Plane02.fbx
+  artifactKey: Guid(4fdf2e219f49a984ab64116d7defdde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/Plane02.fbx using Guid(4fdf2e219f49a984ab64116d7defdde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9cd6b832c61d9ec21e3d5d95f96853') in 0.210892 seconds 
+  Import took 0.226019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.727264 seconds.
+  path: Assets/Shader/stylized_beam/Plane02.fbx
+  artifactKey: Guid(4fdf2e219f49a984ab64116d7defdde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/stylized_beam/Plane02.fbx using Guid(4fdf2e219f49a984ab64116d7defdde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07f077e0ea5180d6d3dcad3199d7027') in 0.012203 seconds 
+  Import took 0.018074 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

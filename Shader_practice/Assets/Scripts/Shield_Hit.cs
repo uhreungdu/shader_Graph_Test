@@ -19,15 +19,28 @@ public class Shield_Hit : MonoBehaviour
     {
         
     }
-
+/*
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Bullet")
+        if (col.gameObject.tag != "Untagged")
         {
             var ripples = Instantiate(ripplesVFX, transform) as GameObject;
             var psr = ripples.GetComponent<ParticleSystemRenderer>();
             mat = psr.material;
             mat.SetVector("SphereMask_Center",col.contacts[0].point);
+            Destroy(ripples,2);
+        }
+    }
+*/
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag != "Untagged")
+        {
+            var ripples = Instantiate(ripplesVFX, transform) as GameObject;
+            var psr = ripples.GetComponent<ParticleSystemRenderer>();
+            mat = psr.material;
+            mat.SetVector("SphereMask_Center",other.ClosestPoint(transform.position));
+            print(mat.GetColor("MainColor"));
             Destroy(ripples,2);
         }
     }

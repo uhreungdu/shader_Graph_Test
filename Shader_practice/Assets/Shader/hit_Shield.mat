@@ -93,8 +93,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - SphereMask_Radius: 0.52
+    - SphereMask_Radius: 0.75
     - Vector1_05d9f9e2b7484e3c86ce18cf42787b18: 4
+    - Vector1_d4d71efcabcc4e06aa320da655592f7a: 0.5
     - Vector1_dfca9e442ac34933b04e4c6fe18d2b4f: 0.5
     - Vector1_f9dbcc296acc4e518ff1e86a85fd5ec3: 2
     - _AlphaClip: 0
@@ -125,7 +126,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_bbcabd0eb5f7433dad4dd1d382536fbb: {r: 1, g: 1, b: 1, a: 1}
-    - MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - MainColor: {r: 1, g: 0, b: 0, a: 1}
     - SphereMask_Center: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - VertexOffsetDistance: {r: 0.05, g: 0.05, b: 0.05, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
