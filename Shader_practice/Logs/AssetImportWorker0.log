@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19044.1706; Version 2009; 64bit' Language: 'ko' Physical Memory: 32706 MB
+OS: 'Windows 10 Education; OS build 19044.1766; Version 2009; 64bit' Language: 'ko' Physical Memory: 32706 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60090
+54256
 Successfully changed project path to: E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 E:/쉐이더 테스트/shader_Graph_Test/Shader_practice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,38 +36,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002387 seconds.
+Registered in 0.003662 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.919 seconds
+- Completed reload, in  2.568 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005834 seconds.
+Registered in 0.007643 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.182 seconds
+- Completed reload, in  1.196 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.9 MB.
-System memory in use after: 174.1 MB.
+Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.1 MB.
+System memory in use after: 178.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3846.
-Total: 3.117500 ms (FindLiveObjects: 0.322600 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.427500 ms  DeleteObjects: 0.206100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 3.149200 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.154200 ms MarkObjects: 2.482800 ms  DeleteObjects: 0.201200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,951 +81,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27d54c43de81dfbc63a2b4696c110bf') in 0.059973 seconds 
-  Import took 0.065534 seconds .
+  path: Assets/Shader/LightSpot/SpotMat.mat
+  artifactKey: Guid(0faf0daf3d4a5f24cac2603bee17065a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/LightSpot/SpotMat.mat using Guid(0faf0daf3d4a5f24cac2603bee17065a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07457dba6c7f33ace5cf4b94857ee2a') in 0.223455 seconds 
+  Import took 0.228310 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 181.669636 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56f51725f1644653d4b073e37a2ab5e') in 0.003169 seconds 
-  Import took 0.022985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.591777 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab33f785f109ae54f6d51060b7cd3efb') in 0.003414 seconds 
-  Import took 0.008901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 317.253032 seconds.
-  path: Assets/Shader/stylized_beam/Plane03.fbx
-  artifactKey: Guid(0bcaa08487f7ac84e8c1658d38b57df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Plane03.fbx using Guid(0bcaa08487f7ac84e8c1658d38b57df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957ce40057fc931461b4e6d39e286d14') in 0.206480 seconds 
-  Import took 0.211998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.763667 seconds.
-  path: Assets/Shader/stylized_beam/Plane03.fbx
-  artifactKey: Guid(0bcaa08487f7ac84e8c1658d38b57df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Plane03.fbx using Guid(0bcaa08487f7ac84e8c1658d38b57df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b558adb798051411e9786471d5284fe') in 0.011706 seconds 
-  Import took 0.023661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.523470 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c5d33ecf6b8cabf78f31fa42a9488e') in 0.003482 seconds 
-  Import took 0.009725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.551706 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b542a9b394848c8f159bc4870109a7') in 0.003614 seconds 
-  Import took 0.020047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001390 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b542a9b394848c8f159bc4870109a7') in 0.003106 seconds 
-  Import took 0.008004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.045025 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93d5387d8ea128a42f71e096d4bda53') in 0.003063 seconds 
-  Import took 0.008489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.826311 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527f17e84f3eb9709632c344fd27de89') in 0.003070 seconds 
-  Import took 0.007939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527f17e84f3eb9709632c344fd27de89') in 0.003933 seconds 
-  Import took 0.009498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.134182 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ef51ab024ae0618d1256ffea77cc59') in 0.002962 seconds 
-  Import took 0.008094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.533959 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e190ea25b42ab34288e771a3a1e75b3') in 0.002989 seconds 
-  Import took 0.008421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 144.194375 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8299f66b34e0fd271d623cf6b2f2be6') in 0.003370 seconds 
-  Import took 0.009380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.654473 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54aee4acd38de4799667acb6071eb04') in 0.003067 seconds 
-  Import took 0.008201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1349.580967 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_tex.png
-  artifactKey: Guid(1b0106deebe371b4d8d5483a2a1f4cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_tex.png using Guid(1b0106deebe371b4d8d5483a2a1f4cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdc24046b8fd17b8ebf9ce4afefc1cb') in 0.027355 seconds 
-  Import took 0.033089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.272455 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_tex.png
-  artifactKey: Guid(1b0106deebe371b4d8d5483a2a1f4cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_tex.png using Guid(1b0106deebe371b4d8d5483a2a1f4cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21474ca06d7e6b25527a3fa79a4bbc65') in 0.008560 seconds 
-  Import took 0.013813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.141898 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183a28d6f841cff0a3b11158fac217ca') in 0.003703 seconds 
-  Import took 0.024287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.188416 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e126dbe6bd48e9bbe810fe32fe99b912') in 0.005392 seconds 
-  Import took 0.011777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.511964 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_tex 1.png
-  artifactKey: Guid(d318caea01eda574b99522c584b5e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_tex 1.png using Guid(d318caea01eda574b99522c584b5e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5d916717e84d0c2314f1407344e4bf') in 0.009165 seconds 
-  Import took 0.014143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.723120 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_tex 1.png
-  artifactKey: Guid(d318caea01eda574b99522c584b5e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_tex 1.png using Guid(d318caea01eda574b99522c584b5e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba38493f73cf0e66572e6facf06ec7b9') in 0.007358 seconds 
-  Import took 0.012600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 446.492258 seconds.
-  path: Assets/Shader/stylized_beam/gradient_rect.png
-  artifactKey: Guid(964cd559ab2b4f7469f1d103a261d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/gradient_rect.png using Guid(964cd559ab2b4f7469f1d103a261d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58baeded00bc00cc250b796e2831ef4') in 0.008139 seconds 
-  Import took 0.014048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.459406 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ca250649ea2c1336526dd03d6c20a') in 0.008116 seconds 
-  Import took 0.014958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.349629 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc77a4cd02cffa4467d8c9947883803') in 0.003230 seconds 
-  Import took 0.008644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.549186 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2537c67e08d962746e0148bc9d7ed7') in 0.002548 seconds 
-  Import took 0.008059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355a6cf973d4421c1f9610e9d7d5d769') in 0.003340 seconds 
-  Import took 0.008714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.564305 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0305663f06484519082f386001759f40') in 0.003140 seconds 
-  Import took 0.018853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.093096 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe4016319226bc84a9776d623d86a60') in 0.002625 seconds 
-  Import took 0.007556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cbe9cea42b1f3357d15a0491a57266') in 0.002963 seconds 
-  Import took 0.008217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.471973 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d052e921b6871b031d278ccd2e5ecd7') in 0.003420 seconds 
-  Import took 0.009196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483ce46ebeeb2b9a10a78faba9d20d4a') in 0.003492 seconds 
-  Import took 0.008978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.927915 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6141ed431ac907aac00bcaa2dfbf66ef') in 0.002524 seconds 
-  Import took 0.008256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e067bc72f590433efafc4769796ff75') in 0.002950 seconds 
-  Import took 0.007818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.135959 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4790e61204bdcf630e76207b554257c') in 0.003151 seconds 
-  Import took 0.007994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.172920 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bfd87ea57cb69bc60294fc1053f44c') in 0.003240 seconds 
-  Import took 0.008453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.036891 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e670b19b079585213d6f3f4b5cf7f03') in 0.004304 seconds 
-  Import took 0.010358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.303793 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c628c74ed920adac1e08683673befbb') in 0.003042 seconds 
-  Import took 0.008193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.300362 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614478acff6265cef4ae08429f4a16ca') in 0.003416 seconds 
-  Import took 0.008314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.861774 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b59def9c9596d0f6ceb4ccca88b0425') in 0.003098 seconds 
-  Import took 0.008131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.652369 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb76e4edb1152ed93f38a1ca43da6238') in 0.002745 seconds 
-  Import took 0.008961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c218f1923dddd92248e864cf51d483c9') in 0.004084 seconds 
-  Import took 0.009895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.235281 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4fcdc2d8304c70d10b44977fcdaafd') in 0.003118 seconds 
-  Import took 0.008379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.187642 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8a4d2f63956df4e57d710666fed211') in 0.003068 seconds 
-  Import took 0.007994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.920533 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10625a919b202525367d912e1b807a82') in 0.003231 seconds 
-  Import took 0.017674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11c84356176ccbc375936512c40eed0') in 0.003406 seconds 
-  Import took 0.017445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.241430 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dcca0be39b765ba6974965e4f8e94e') in 0.002999 seconds 
-  Import took 0.009568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.572374 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0092c1302da527cf2ec6816ea6f091') in 0.003103 seconds 
-  Import took 0.008048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.324577 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877a9f85b1019fe5f6817c1fe1784c5e') in 0.003160 seconds 
-  Import took 0.007990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 231.926330 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Gradient.png
-  artifactKey: Guid(bb4f5d4175610e748a9acd8abab0f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Gradient.png using Guid(bb4f5d4175610e748a9acd8abab0f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f592bbcbae46fedc3a1c2c26024c217') in 0.006936 seconds 
-  Import took 0.012971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.266584 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Gradient2.png
-  artifactKey: Guid(898dea396b9012841b945172c4e30315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Gradient2.png using Guid(898dea396b9012841b945172c4e30315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09072ccd186ed2c753837bd08cb25e1f') in 0.006004 seconds 
-  Import took 0.011426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.377948 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16978b5e0c458e9f20d37f6a38175624') in 0.003244 seconds 
-  Import took 0.008608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.919629 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9117b1e5e67fad009651c491bcf07d86') in 0.002532 seconds 
-  Import took 0.007498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d08c4cd63343f3efb62aaf89a3bdb6') in 0.003100 seconds 
-  Import took 0.008280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 290.009668 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9e96ec1b24f8f02ab549c43796867b') in 0.003355 seconds 
-  Import took 0.008799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.452153 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60b97ef4c7b22cb268d398cec2adb6f') in 0.003129 seconds 
-  Import took 0.008697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.567673 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae429a3f0425f54476b05ca67ab3e1c') in 0.003584 seconds 
-  Import took 0.008995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.499613 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08a1751169b0af7f5f9902c56726de0') in 0.003457 seconds 
-  Import took 0.008800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 453.784783 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbaa5fac94ab3c01d34af6a6013cebdd') in 0.004355 seconds 
-  Import took 0.010009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.308491 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098774ca393dada07fd6d28633a298f') in 0.003884 seconds 
-  Import took 0.009720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002536 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098774ca393dada07fd6d28633a298f') in 0.004451 seconds 
-  Import took 0.009365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.944121 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432a41a922c3b452069258d69060b9ca') in 0.003816 seconds 
-  Import took 0.009422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.015268 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace5f4979a59392fb0c3b90cfbf1eea') in 0.003832 seconds 
-  Import took 0.009108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.640413 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeab431f0983c20d6c45b2f8b73c6d7a') in 0.003816 seconds 
-  Import took 0.009421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.900872 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c459707acf4d301ef999a00bc7b688') in 0.004224 seconds 
-  Import took 0.011859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003009 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c459707acf4d301ef999a00bc7b688') in 0.004529 seconds 
-  Import took 0.010251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.347495 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8049ab21d0bc77cf021f505236d3bd') in 0.003579 seconds 
-  Import took 0.009490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.013821 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5a9d4fb2f6c14b00ed26c165ca51b3') in 0.005189 seconds 
-  Import took 0.018402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.996446 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6771f3ebc936151effe56c49388c91ad') in 0.004275 seconds 
-  Import took 0.010650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.322027 seconds.
-  path: Assets/Shader/stylized_beam/Lazer_Shader.shadergraph
-  artifactKey: Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/Lazer_Shader.shadergraph using Guid(2907f4f5bae376d419a4bb27df5ce4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2b30db92ea5be5ccb2b0dd6d70ada6') in 0.002730 seconds 
-  Import took 0.008441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.132735 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac5039c89c9f38049a94383166773cb') in 0.004365 seconds 
-  Import took 0.010256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.982188 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3afbc3d884d43374f3734cf5858f95') in 0.005387 seconds 
-  Import took 0.011125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.952425 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37a61e9a25c636551a72a5e65e1b014') in 0.003036 seconds 
-  Import took 0.008738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.908470 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6b1474e2f54a647c7a3d1d18f7c6ac') in 0.003076 seconds 
-  Import took 0.008732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.863457 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399dbee4a937ac24bd1e1c6e269acf1d') in 0.003391 seconds 
-  Import took 0.034001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.202056 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fc397567e7d2c3463a4a83fce51d95') in 0.002390 seconds 
-  Import took 0.008507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.648388 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd5dd4bc06d2a476c24279c09d4f5db') in 0.003650 seconds 
-  Import took 0.008860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.674681 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cb90a367feab0fb6ba728b17952caf') in 0.005002 seconds 
-  Import took 0.011220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.286255 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f21c12c71616a2eab9ff15a610ecc') in 0.003585 seconds 
-  Import took 0.008575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.713338 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c1a688d584ace83e7000fd220d632b') in 0.005000 seconds 
-  Import took 0.010534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.925958 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce6823bd03c00ac55698c4e4f5af8e') in 0.004803 seconds 
-  Import took 0.010558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.514047 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6180690950705f05c21b80cf574b4e5') in 0.005164 seconds 
-  Import took 0.010636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.574294 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3e69c2f3b7ee319cdd63d87a992b6e') in 0.004195 seconds 
-  Import took 0.011046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.036705 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5dbf1c102781b5cabbaf8ffffd3f26') in 0.004253 seconds 
-  Import took 0.009745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.840493 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338638c4e511da1d03b453872f3e34c5') in 0.004493 seconds 
-  Import took 0.011090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.056112 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe3eca231c04e300fa36c26f80c18a5') in 0.004808 seconds 
-  Import took 0.009695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.084829 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb03c96be03c1a1f20379bb3cd1df15') in 0.004170 seconds 
-  Import took 0.010990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.214417 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3286e3ed7f61c145d3d8fef7014950ab') in 0.004393 seconds 
-  Import took 0.009822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.346935 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd1eb9d18eaf992e99df756c8757b53') in 0.004457 seconds 
-  Import took 0.010597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.259426 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d403bd0198b45c7b4eba59bbdff3ba') in 0.005201 seconds 
-  Import took 0.010442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.263111 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054eeec6acfd68dee04bf4bc56615353') in 0.004148 seconds 
-  Import took 0.009371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.658765 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46332bb986fc19c36269059b5c514bbc') in 0.004190 seconds 
-  Import took 0.010622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.063915 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf83aa033e7855a47fe3e5e263d4467') in 0.004932 seconds 
-  Import took 0.010074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.733971 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687d56ce6d2c1a9e4cdf23ef145a9de6') in 0.004104 seconds 
-  Import took 0.009075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.323107 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942c9dab87f641ba81d8b321d2098940') in 0.004292 seconds 
-  Import took 0.009376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.480545 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57d9d9e52eed9bd9462fa1ada4e5617') in 0.004804 seconds 
-  Import took 0.010473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.194069 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f506672d036b650f174fd756ad447b5d') in 0.004549 seconds 
-  Import took 0.009713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.647169 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d0392b23037dd944dff86f5ab6cd27') in 0.004103 seconds 
-  Import took 0.009519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.671763 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aecccd776c4fcc33fbbfd01d5bd6264') in 0.005426 seconds 
-  Import took 0.011863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.856334 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff15d273f29d66d76538a85e194f6c8') in 0.005750 seconds 
-  Import took 0.041224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.357514 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f504228aee8cb4e14810819bd1dc59') in 0.005341 seconds 
-  Import took 0.010484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.729674 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2eeb435d9ee9bb166fbf42b07d7b1ce') in 0.004979 seconds 
-  Import took 0.010601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.966702 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e2416c672970199a76eb47648989e0') in 0.004763 seconds 
-  Import took 0.010621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.467093 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f76315d0ca905917bab0545da9fbeec') in 0.005294 seconds 
-  Import took 0.011610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.857045 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64ccd7a1d4bef3c2a555e841531875d') in 0.004667 seconds 
-  Import took 0.024196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.220030 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2946dcb484bf73b9fef8b2366b082388') in 0.004618 seconds 
-  Import took 0.019603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.754156 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334c78d6921875159953be3110fe57bc') in 0.004946 seconds 
-  Import took 0.010590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.126411 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aeaecde1b60ecd1b34d7cdb6e4aea8') in 0.005091 seconds 
-  Import took 0.013074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.491121 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a477567954c80d398f418564608659') in 0.004990 seconds 
-  Import took 0.010632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.860311 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d28d53ed5983c617e65bf1c71224ef') in 0.004628 seconds 
-  Import took 0.010128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.595697 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5784359d626e908e2914c1dd355a1097') in 0.004697 seconds 
-  Import took 0.010701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.324413 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c756d5904c3562039cf23a9044a21706') in 0.005149 seconds 
-  Import took 0.010989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.057697 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd019c0e48495072f440738a7bd055a8f') in 0.007076 seconds 
-  Import took 0.012413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.118036 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416a5bef197b29cef9c326d5b25e20df') in 0.005132 seconds 
-  Import took 0.010713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.372122 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372fab98f9264b7407cc9a52107668ca') in 0.005569 seconds 
-  Import took 0.011108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.315487 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020d46d60a9926cd9b24ad3ff1f50733') in 0.005020 seconds 
-  Import took 0.010388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.412643 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901d86a9b34277d42395d34f69e2176a') in 0.005071 seconds 
-  Import took 0.010698 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Shader/LightSpot/LightBuild.prefab
+  artifactKey: Guid(b27b876b9b20bf44d98ad5190fff3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/LightSpot/LightBuild.prefab using Guid(b27b876b9b20bf44d98ad5190fff3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f848d26109c6565afa6ef46fbf3861c1') in 0.011575 seconds 
+  Import took 0.016376 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006708 seconds.
+Registered in 0.007746 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.344 seconds
+- Completed reload, in  1.493 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.8 MB.
-System memory in use after: 164.0 MB.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.2 MB.
+System memory in use after: 167.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3899.
-Total: 3.380100 ms (FindLiveObjects: 0.503800 ms CreateObjectMapping: 0.220100 ms MarkObjects: 2.622700 ms  DeleteObjects: 0.032400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3942.
+Total: 3.295600 ms (FindLiveObjects: 0.623600 ms CreateObjectMapping: 0.270200 ms MarkObjects: 2.380200 ms  DeleteObjects: 0.020100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1039,50 +127,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 270.445772 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75e3d7404cc5a03b09251e34a1d6fd7') in 0.042051 seconds 
-  Import took 0.048186 seconds .
+  Time since last request: 2636.038603 seconds.
+  path: Assets/Shader/LightSpot/Beam3 1.png
+  artifactKey: Guid(36e57ec1915fc6547bdda394a9f1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/LightSpot/Beam3 1.png using Guid(36e57ec1915fc6547bdda394a9f1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739d850520a508e80b9c256ececb4888') in 0.070797 seconds 
+  Import took 0.076420 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.872134 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669d264fa772ef26573715a19b26d988') in 0.004597 seconds 
-  Import took 0.009816 seconds .
+  Time since last request: 14.495113 seconds.
+  path: Assets/Shader/LightSpot/Beam3 1.png
+  artifactKey: Guid(36e57ec1915fc6547bdda394a9f1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/LightSpot/Beam3 1.png using Guid(36e57ec1915fc6547bdda394a9f1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884614d1d682f4839dce2f72ab3f5d3e') in 0.007002 seconds 
+  Import took 0.013193 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.279575 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a335376752d83bad357f20b981084a') in 0.004581 seconds 
-  Import took 0.036480 seconds .
+  Time since last request: 0.002422 seconds.
+  path: Assets/Shader/LightSpot/Beam3 1.png
+  artifactKey: Guid(36e57ec1915fc6547bdda394a9f1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/LightSpot/Beam3 1.png using Guid(36e57ec1915fc6547bdda394a9f1236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884614d1d682f4839dce2f72ab3f5d3e') in 0.005500 seconds 
+  Import took 0.011038 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.014316 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8a72469c501ab02af5ecfe77ff459f') in 0.004903 seconds 
-  Import took 0.009954 seconds .
+  Time since last request: 226.423750 seconds.
+  path: Assets/Shader/Wave_Shader/Wave.shadergraph
+  artifactKey: Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Wave_Shader/Wave.shadergraph using Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6ebb030b47a8d6639609b7db4c1957') in 0.025491 seconds 
+  Import took 0.031266 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.395086 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8555343c48aa290d39cec39cfe35ac83') in 0.004789 seconds 
-  Import took 0.010101 seconds .
+  Time since last request: 0.000849 seconds.
+  path: Assets/Shader/Wave_Shader/Wave.shadergraph
+  artifactKey: Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Wave_Shader/Wave.shadergraph using Guid(a35b64d994abe154a97352f15fee1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6ebb030b47a8d6639609b7db4c1957') in 0.002107 seconds 
+  Import took 0.007403 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 70.696898 seconds.
-  path: Assets/Shader/stylized_beam/stylied_Beam.vfx
-  artifactKey: Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/stylized_beam/stylied_Beam.vfx using Guid(e13057a700c05bb4b8ec99ffab71c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccf123272a88d7d2de7931fbcb901ff') in 0.004830 seconds 
-  Import took 0.010176 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
