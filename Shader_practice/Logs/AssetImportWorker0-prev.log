@@ -15,11 +15,11 @@ C:/Users/C/Documents/GitHub/shader_Graph_Test/Shader_practice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51283
+51485
 Successfully changed project path to: C:/Users/C/Documents/GitHub/shader_Graph_Test/Shader_practice
 C:/Users/C/Documents/GitHub/shader_Graph_Test/Shader_practice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,38 +36,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002299 seconds.
+Registered in 0.001919 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.355 seconds
+- Completed reload, in  2.132 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004595 seconds.
+Registered in 0.005333 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.200 seconds
+- Completed reload, in  1.227 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 164.9 MB.
 System memory in use after: 165.1 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3838.
-Total: 2.466400 ms (FindLiveObjects: 0.420200 ms CreateObjectMapping: 0.098800 ms MarkObjects: 1.779900 ms  DeleteObjects: 0.165900 ms)
+Total: 2.453600 ms (FindLiveObjects: 0.406400 ms CreateObjectMapping: 0.094500 ms MarkObjects: 1.781800 ms  DeleteObjects: 0.170000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,41 +81,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shader/GoatShader/goat_head_uv.png
-  artifactKey: Guid(0805b8ad089b82e4280a4f20420e0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/GoatShader/goat_head_uv.png using Guid(0805b8ad089b82e4280a4f20420e0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb7581651ba87d024c8d998475e09a0') in 0.075320 seconds 
-  Import took 0.080125 seconds .
+  path: Assets/Shader/GoatShader/test.fbx
+  artifactKey: Guid(0d2cb50047a22644199fbcab06906513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/GoatShader/test.fbx using Guid(0d2cb50047a22644199fbcab06906513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b08c5ec0594188d1d8046cd8cec9cd8') in 0.301966 seconds 
+  Import took 0.306915 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.373373 seconds.
-  path: Assets/Shader/GoatShader/goat_head_uv.png
-  artifactKey: Guid(0805b8ad089b82e4280a4f20420e0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/GoatShader/goat_head_uv.png using Guid(0805b8ad089b82e4280a4f20420e0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dc6b3f103bab49a41500dd369f1923') in 0.043664 seconds 
-  Import took 0.048824 seconds .
+  Time since last request: 478.623372 seconds.
+  path: Assets/Shader/GoatShader/goat_head_uv (2) 1.png
+  artifactKey: Guid(5aeab8f28c4098942912099c1ccd1229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/GoatShader/goat_head_uv (2) 1.png using Guid(5aeab8f28c4098942912099c1ccd1229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622dd64f365b17332bafb87e1b7b3aaa') in 0.022517 seconds 
+  Import took 0.027819 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.487872 seconds.
-  path: Assets/Shader/GoatShader/goat_head_uv.png
-  artifactKey: Guid(0805b8ad089b82e4280a4f20420e0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/GoatShader/goat_head_uv.png using Guid(0805b8ad089b82e4280a4f20420e0211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d9518145d77e693a21afc0ccf8732d') in 0.006469 seconds 
-  Import took 0.011198 seconds .
+  Time since last request: 209.183734 seconds.
+  path: Assets/Shader/GoatShader/goat_head.png
+  artifactKey: Guid(b23d3fdb95ab9b54abf3ec0122507af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/GoatShader/goat_head.png using Guid(b23d3fdb95ab9b54abf3ec0122507af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba851ee802e66684bb6b12e01b364789') in 0.010087 seconds 
+  Import took 0.015028 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.031390 seconds.
-  path: Assets/Shader/GoatShader/goat_head_uv (2).png
-  artifactKey: Guid(aee45957f91d96e46887854d37456e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/GoatShader/goat_head_uv (2).png using Guid(aee45957f91d96e46887854d37456e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f7008dbd146af462c0d108f86293d3') in 0.012014 seconds 
-  Import took 0.016829 seconds .
+  Time since last request: 611.145221 seconds.
+  path: Assets/Shader/GoatShader/GOAT_head 1.png
+  artifactKey: Guid(07e7ea1da1c833948862516f97134c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/GoatShader/GOAT_head 1.png using Guid(07e7ea1da1c833948862516f97134c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f787cb798c771a800c07264fa0a02514') in 0.012185 seconds 
+  Import took 0.017615 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1462.822165 seconds.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Shader/GoatShader/GOAT_head.fbx
+  artifactKey: Guid(1c0f16f75597b2047945c5ef743f2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/GoatShader/GOAT_head.fbx using Guid(1c0f16f75597b2047945c5ef743f2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207e7e496b3430a3dfa60d615ee1f14b') in 0.026641 seconds 
+  Import took 0.030903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.340879 seconds.
+  path: Assets/Shader/GoatShader/GOAT_head (2).png
+  artifactKey: Guid(2662f779507f9aa4294ce21a030cf5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/GoatShader/GOAT_head (2).png using Guid(2662f779507f9aa4294ce21a030cf5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97072c12bacc64322b9572c1eeb539f') in 0.010070 seconds 
+  Import took 0.014958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 887.559794 seconds.
+  path: Assets/Shader/GoatShader/GOAT_head3.png
+  artifactKey: Guid(1031b689e393f2749b5af4fdf999c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/GoatShader/GOAT_head3.png using Guid(1031b689e393f2749b5af4fdf999c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1b2f973ab343c3fb7093c31d17acd7') in 0.011627 seconds 
+  Import took 0.016821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.356533 seconds.
   path: Assets/Shader/GoatShader/GoatHeadMat.mat
   artifactKey: Guid(f30465416e027224e85848f5e0bf76b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/GoatShader/GoatHeadMat.mat using Guid(f30465416e027224e85848f5e0bf76b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189ef4e4e94519ee265032a7ee8fe233') in 0.164620 seconds 
-  Import took 0.170420 seconds .
+Start importing Assets/Shader/GoatShader/GoatHeadMat.mat using Guid(f30465416e027224e85848f5e0bf76b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e7013492f3fba856312b49544b4448') in 0.017944 seconds 
+  Import took 0.022732 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
